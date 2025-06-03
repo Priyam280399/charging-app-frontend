@@ -1,12 +1,60 @@
-# React + Vite
+# ⚡ Charging App Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Charging Station Management Application, built with **React.js** and **Vite**, and styled using **Tailwind CSS**. It allows users to register, log in, and interact with charging station data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Priyam280399/charging-app-frontend.git
+cd charging-app-frontend
+
+Install dependencies:
+npm install
+
+ Running the App Locally
+Make sure your backend is running (see backend repo), then:
+npm run dev
+The app will run at http://localhost:5173
+
+Project Structure
+charging-app-frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── vite.config.js
+├── vercel.json
+├── package.json
+└── README.md
+
+
+ Features
+Register & Login with JWT
+
+Protected routes
+
+Token-based API requests
+
+Fully responsive UI with Tailwind CSS
+
+Centralized API service using Axios
+
+
